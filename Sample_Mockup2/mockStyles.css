@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(235, 237, 240);
+}
+.main{
+    background-color: rgb(17, 17, 90);
+    color: white;
+    padding: 40px;
+    
+    
+}
+.title{ /*BEADVICES*/
+    box-sizing: border-box; 
+    float: left;
+    padding-bottom: 20px;
+}
+
+.main #t1{
+    padding-left: 20px;
+    width: 50%;
+}
+.main #t2{ /*home etc.,*/
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 4em;
+    width: 50%;
+}
+.main .title a{
+    text-decoration: none;
+    color: white;
+}
+.textAndPic-container p{
+    line-height: 1.5
+}
+.textAndPic-container img{
+    transform: scaleX(-1);
+    width: 100%;
+}
+.textAndPic-container .textContainer{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    padding-right: 50%;
+}
+.textAndPic-container .textContainer h1{
+    font-size: 3em;
+}
+.textAndPic-container .textContainer p{
+    font-size: 1em;
+    
+}
+button{
+    background-color: rgb(21, 21, 73);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+}
+.threePicsContainer{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    top: 140%;
+    left: 1%;
+    box-shadow: 1px 1px 10px;
+}
+
+.threePicsContainer img{
+    transform: scaleX(1);
+    width: 454px;
+    height: 300px;
+}
+.threePicsContainer .pics{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+.pictext{
+    position: absolute;
+    right: 75%;
+    top: 50%;
+}
+.pictext h2{
+    color: yellow;
+}
+.pictext p{
+    color: white;
+}
+
+.pictext2{
+    position: absolute;
+    right: 44%;
+    top: 50%;
+}
+.pictext2 h2{
+    color: yellow;
+}
+.pictext2 p{
+    color: white;
+}
+.pictext3{
+    position: absolute;
+    right: 12%;
+    top: 50%;
+}
+.pictext3 h2{
+    color: yellow;
+}
+.pictext3 p{
+    color: white;
+}
+
+.lastContainer{
+    padding: 50px;
+    padding-top: 350px;
+}
+.lastContainer img{
+    transform: scaleX(-1);
+    width: 25%;
+    float: right;
+}
+.lastText{
+    padding-top: 40px;
+    padding-right: 6px;
+    
+}
+.lastText h2{
+    font-size: 3.5em;
+}
+.lastText p{
+    line-height: 1.5;
+}
